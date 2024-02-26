@@ -1,0 +1,272 @@
+/*Barra de Navegación*/
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: arial;
+    margin: 0;
+}
+.slide{
+    overflow: hidden;
+    margin: auto;
+    height: 743px;
+    width: 100%;
+    background-image: url(imagenes/fondo_slide.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenido{
+    width: 100%;
+    height: 743px;
+}
+.contenido1{
+    background-color: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+}
+.contenido2{
+    display: flex;
+}
+.link1{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.link2{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+.link3{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.link4{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.link1:hover{
+    text-decoration: underline;
+}
+.link2:hover{
+    text-decoration: underline;
+}
+.link3:hover{
+    text-decoration: underline;
+}
+.link4:hover{
+    text-decoration: underline;
+}
+.logo{
+    margin-top: 10px;
+    width: 40px;
+}
+.texto1{
+    color: white;
+    margin-top:300px;
+    font-size: 80px;
+    margin-left: 90px;
+}
+.texto2{
+    font-size: 180px;
+}
+.azul{
+    color: #35b7f2;
+}
+.imagen{
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 550px;
+    height: 550px;
+}
+
+/*Presentación*/
+
+.presentacion{
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(#090F22, #0B1755);
+}
+.presentacion2{
+    margin-top: 50px;
+    display: flex;
+}
+.texto3{
+    margin-top: 40px;
+    margin-left: 150px;
+    color: white;
+    padding: 20px 20px;
+    border: 3px solid #35b7f2;
+    width: 188px;
+    font-size: 30px;
+}
+.imagen1{
+    margin-left: 200px;
+    width: 140px;
+    height: 180px;
+    padding: 20px 30px;
+    border-left: 3px solid #35b7f2;
+
+}
+.texto4{
+    margin-left: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+/*Portafolio*/
+
+.portafolio{
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    height: 600px;
+    background-color: #0B1755;
+}
+.texto5{
+    margin-top: 40px;
+    margin-left: 150px;
+    color: white;
+    padding: 20px 20px;
+    border: 3px solid #35b7f2;
+    width: 214px;
+    font-size: 30px;
+}
+
+/*Servicios*/
+
+.servicios{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    height: 900px;
+    background-color: #0B1755;
+}
+.servicios2{
+    margin-top: 125px;
+}
+.texto6{
+    margin-top: 40px;
+    margin-left: 150px;
+    color: white;
+    padding: 20px 20px;
+    border: 3px solid #35b7f2;
+    width: 140px;
+    font-size: 30px;
+}
+.texto7{
+    margin-left: 340px;
+    width: 350px;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    border-bottom:3px solid #35b7f2;
+    border-right: 3px solid #35b7f2;
+}
+.imagen2{
+    width: 45px;
+}
+.texto8{
+    margin-left: 120px;
+    width: 350px;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    border-left: 3px solid #35b7f2;
+    border-bottom:3px solid #35b7f2;
+}
+.texto9{
+    margin-left: 350px;
+    width: 320px;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+.texto10{
+    margin-left: 350px;
+    width: 360px;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+.texto11{
+    margin-left: 140px;
+    width: 360px;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+/*Contactame*/
+
+.contacto{
+    display: flex;
+    padding-top: 100px;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    background-color: #0B1755;
+}
+.contacto2{
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.texto12{
+    margin-left: 150px;
+    color: white;
+    font-size: 30px;
+}
+.imagen3{
+    width: 45px;
+    margin-left: 10px;
+}
+.imagen4{
+    width: 45px;
+    margin-left: 10px;
+}
+.formulario{
+    width: 500px;
+}
+.f1{
+    color: white;
+    width: 500px;
+    height: 40px;
+    border: 3px solid rgba(255, 255, 255, 0.437);
+    background-color: #0000008c;
+    font-size: 20px;
+}
+.f2{
+    height: 40px;
+    width: 500px;
+    border: 3px solid rgba(255, 255, 255, 0.437);
+    background-color: #0000008c;
+    color: white;
+    height: 120px;
+    font-size: 20px;
+}
+.f3{
+    height: 40px;
+    width: 505px;
+    font-size: 20px;
+}
+.f3:hover{
+    background-color: #0000008c;
+    color: white;
+    border: 3px solid rgba(255, 255, 255, 0.437);
+}
